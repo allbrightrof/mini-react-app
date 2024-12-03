@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Image Component */
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+}
+
+/* Text Component */
+.text-container h1, h2, h3 {
+  color: #333;
+}
+
+.text-container p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Table Component */
+.styled-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Ensures the table is vertically centered within the viewport */
+  background-color: #f9f9f9; /* Optional for a consistent background */
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.styled-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Button Component */
+.styled-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: #0056b3;
+}
+
+/* State and Props Component */
+.state-props {
+  text-align: center;
+}
+
+.state-props button {
+  margin-top: 10px;
+}
